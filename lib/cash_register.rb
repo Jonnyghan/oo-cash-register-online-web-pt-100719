@@ -9,9 +9,9 @@ class CashRegister
     @items = []
   end 
 
-  def add_item(name, price)
+  def add_item(name, price,quantity=1)
     @items << name
-    @total += price
+    @total += (price(*quantity)
     #binding.pry
   end 
 end
