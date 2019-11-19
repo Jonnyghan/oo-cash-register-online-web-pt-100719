@@ -1,15 +1,12 @@
 require 'pry'
 
 class CashRegister
-  attr_accessor :total 
+  attr_accessor :total, :discount 
   
-  def initialize
-    total = 0 
-    @total = total 
-    def cash_register_with_discount(total)
-      employee= (total*(.8))
-      employee
-    end
+  def initialize(discount = 0)
+    @total = 0 
+    @discount = discount
+    
   end 
 
 end
