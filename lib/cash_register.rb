@@ -23,9 +23,9 @@ class CashRegister
     else
      @items << name
     end
-     #binding.pry
     @last_transaction = @total
     @total
+     #binding.pry
   end 
   
   def apply_discount()
