@@ -22,6 +22,7 @@ class CashRegister
     #binding.pry
     @last_transaction = @total
     @total
+  end
   end 
   
   def apply_discount()
