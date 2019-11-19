@@ -14,8 +14,9 @@ class CashRegister
     i = 0
     while i<quantity
     @items << name 
-    i += 1
-    
+    i += 1 
+    end
+    else
     @items << name
     @total += price * quantity
     #binding.pry
