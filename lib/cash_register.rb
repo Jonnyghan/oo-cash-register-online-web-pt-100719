@@ -10,6 +10,9 @@ class CashRegister
   end 
 
   def add_item(name, price,quantity=1)
+    if quantity > 1 
+    
+    
     @items << name
     @total += price * quantity
     #binding.pry
