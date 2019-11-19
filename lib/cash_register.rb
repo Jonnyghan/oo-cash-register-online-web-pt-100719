@@ -23,7 +23,7 @@ class CashRegister
     else
      @items << name
     end
-    @last_transaction = @total
+    @last_transaction = @price
     @total
     binding.pry
   end 
