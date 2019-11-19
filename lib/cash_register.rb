@@ -9,6 +9,7 @@ class CashRegister
     def cash_register_with_discount(total)
       employee= (total*(.8))
       employee
+    end
   end 
 
 end
