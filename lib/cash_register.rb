@@ -18,6 +18,7 @@ class CashRegister
     end
     else
     @items << name
+    end
     @total += price * quantity
     #binding.pry
     @last_transaction = @total
