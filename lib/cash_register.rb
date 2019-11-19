@@ -1,8 +1,10 @@
 require 'pry'
 
-class Cash
+class CashRegister
+  
+  
 
-
+end
 
 
 
