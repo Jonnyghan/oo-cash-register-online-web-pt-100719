@@ -45,7 +45,7 @@ class CashRegister
    #binding.pry
    if total = 0.0 
      return total
-     
+   end
   end
   
   
